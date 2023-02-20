@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"jsx": "react",
+		"target": "es2015",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"sourceMap": true,
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["src/*"]
+		}
+	}
+}
